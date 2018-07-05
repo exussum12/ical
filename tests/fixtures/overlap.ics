@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:Access-A-Ride Pickup
+DTSTART;TZID=America/New_York:20130802T103400
+DTEND;TZID=America/New_York:20130804T110400
+LOCATION:1000 Broadway Ave.\, Brooklyn
+DESCRIPTION:To see detailed information for automatically created events li
+ ke this one\, use the official Google Calendar app.
+STATUS:CONFIRMED
+SEQUENCE:3
+BEGIN:VALARM
+TRIGGER:-PT10M
+DESCRIPTION:To see detailed information for automatically created events li
+ ke this one\, use the official Google Calendar app.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Access-A-Ride Pickup
+DTSTART;TZID=America/New_York:20130803T200000
+DTEND;TZID=America/New_York:20130805T203000
+LOCATION:900 Jay St.\, Brooklyn
+DESCRIPTION:To see detailed information for automatically created events li
+ ke this one\, use the official Google Calendar app.
+STATUS:CONFIRMED
+SEQUENCE:3
+BEGIN:VALARM
+TRIGGER:-PT10M
+DESCRIPTION:Pickup Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
