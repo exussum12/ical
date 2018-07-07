@@ -1,4 +1,4 @@
-#iCal Parser
+# iCal Parser
 
 A basic iCal parser. 
 

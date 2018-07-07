@@ -1,4 +1,6 @@
 {
+    "name": "exussum12/ical",
+    "description": "Basic iCal parser",
     "require": {
         "phpunit/phpunit": "^7.2"
     },
