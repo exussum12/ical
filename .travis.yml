@@ -7,5 +7,7 @@ matrix:
     - php: 7.2
     - php: nightly
   fast_finish: true
-st Acript:
+before_script:
+-  composer install --dev
+script:
 - ./build.sh
