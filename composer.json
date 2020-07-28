@@ -2,8 +2,8 @@
     "name": "exussum12/ical",
     "description": "Basic iCal parser",
     "license": "MIT",
-    "require": {
-        "phpunit/phpunit": "^6.5"
+    "require-dev": {
+        "phpunit/phpunit": "^6.5|^7.0|^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {"exussum12\\Ical\\": "src/"}
